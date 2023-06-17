@@ -19,9 +19,9 @@ Reason you should use dev containers:
 To get started with development, you need to follow these steps:
 
 1. Create a repository from this template repository
-2. The node.js version the dev container will use is 20.3, but if you want to use any other version of node.js modify this line with version you want. Please refer to [this](<https://edu.chainguard.dev/chainguard/chainguard-images/reference/node/overview/>) documentation for available versions.
+2. The node.js version dev container will use is 20.3, but if you want to use any other version of node.js modify Dockerfile with version you want. Please refer to [this](<https://edu.chainguard.dev/chainguard/chainguard-images/reference/node/overview/>) documentation for available versions.
 3. Start the dev environment by running this command `sh setup-dev-env.sh`.
-4. Attach your vscode to dev container named `nodejs-dev-env`.
+4. Attach your vscode or other IDE to dev container named `nodejs-dev-env`.
 5. Now start building amazing apps :rocket:
 
 **NOTE - As mentioned this is a minimal dev env for node.js, so I highly recommend to customize the Dockerfile to include for e.g. tsconfig.json, eslint/prettier configs, etc for your usecase**
@@ -29,4 +29,4 @@ To get started with development, you need to follow these steps:
 ## Reference links
 
 1. [Chainguard getting started with node.js](https://edu.chainguard.dev/chainguard/chainguard-images/reference/node/getting-started-node/)
-2. [List of chainguard os packages for installation](https://github.com/wolfi-dev/os) for upadting the docker image to include certain packages.
+2. [List of chainguard os packages available for installation](https://github.com/wolfi-dev/os) in docker image.
